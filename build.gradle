@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group = 'ru.shift'
+version = '1.0-SNAPSHOT'
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+dependencies {}
+
+test {
+    useJUnitPlatform()
+}
